@@ -1,0 +1,62 @@
+body{
+    background-image: url(%D8%AE%D9%84%D9%81%D9%8A%D8%A9%20p1.avif);
+        background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+        
+}
+h1{
+   color: black;
+    font-weight:900;
+    font-size: 25px;
+    float: right;
+    margin: 100px 450px 0 0;
+   text-shadow: 1px 2px 5px black; 
+}
+h2{
+  color:rgb(213, 0, 0);
+    font-weight:900;
+    font-size: 18px;
+    float: right;
+    margin:30px 470px 0 0;
+}
+
+form{
+    text-align: right;
+   font-weight:700;
+    font-size: 20px; 
+  float: right;
+    margin:50px 300px 50px 0;  
+    border-color:rgb(213, 0, 0);
+    border-radius:50px;
+    border-style: double;
+    border-width:thick;
+   padding: 50px;
+}
+lable{
+ /* font-size:18;
+   padding: 0 50px 0 0;*/
+}
+input{
+    font-size: 18px;
+    margin: 0 50px;
+
+}
+
+
+.submit{
+   text-align:center;
+    font-size: 18px;
+    margin: 0 230px;
+    padding:5px 10px;
+    background-color: black;
+    color:white;
+}
+.submit:hover{
+    color: black;
+    background-color:rgb(213, 0, 0);}
+
+p{
+color: rgb(213, 0, 0);
+    padding: 0px 5px;   
+}

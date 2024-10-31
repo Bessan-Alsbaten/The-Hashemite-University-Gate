@@ -1,0 +1,87 @@
+body{
+    background-image: url(%D8%AE%D9%84%D9%81%D9%8A%D8%A9%20p1.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    font-family: 'Noto Kufi Arabic', serif; 
+    
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width:25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66;}
+.col-6{width: 50%;}
+.col-7{width: 58.33;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width:91.66%;}
+.col-12{width: 100%;}
+
+h1{
+    text-shadow:0 0 0 1px rgba(0,0,0,.15) ,0 2px 3px 0 rgb(213, 0, 0) ;
+   margin:auto;
+    margin-right: 300px;
+    font-family: 'Noto Kufi Arabic', serif;
+   text-shadow: 1px 2px 5px rgb(213, 0, 0);
+}
+img{
+    margin: auto;
+}
+
+form{
+border-color:rgb(213, 0, 0);
+    border-radius:100px;
+    border-style: double;
+    border-width:thick;
+    padding-bottom: 25px;
+    margin: 0 400px;
+}
+
+p{
+   font-size: 25px;
+    color: rgb(213, 0, 0);
+    
+    
+}
+input{
+ font-size:18;
+    
+}
+button{
+ background-color:black;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 15px;
+    color:white;
+    padding:0 15px;
+}
+ button a:hover{
+    color: black;
+    background-color:rgb(213, 0, 0);
+    
+}
+button:hover{
+ color: black;
+    background-color:rgb(213, 0, 0);   
+}
+
+a{
+    text-decoration-color: rgb(213, 0, 0);
+}

@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+     background-color: rgb(245, 245, 245);
+}
+
+nav ul{
+  background-color:rgba(250, 250, 250, 1);
+   overflow: hidden;
+}
+
+li{
+    list-style: none;
+   float: left;
+}
+
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    padding-left:27px ;
+    color:black; 
+    font-size: 18px;
+    font-weight: 900;
+}
+
+li a:hover{
+  background:linear-gradient(rgb(245, 245, 245),rgb(213, 0, 0) );
+}
+.colo{
+    margin-left:7px;
+    padding-left: 22px;
+ color: black;
+    font-weight:900;
+    font-size: 25px;
+    /*float: right;
+    padding:12px 65px 12px 70px;*/
+      text-shadow: 1px 2px 5px red;
+    /*background-color:rgb(245, 245, 245);*/
+}
+.colo:hover{
+    background-color:rgb(245, 245, 245); }
+form{
+   border-color:rgb(213, 0, 0);
+    border-radius:20px;
+    border-style: double;
+    border-width:thick; 
+    text-align: right;
+   margin:0 100px;
+}
+form p{
+    padding: 0 40px;
+    font-weight: 900;
+    color:rgb(213, 0, 0);
+    font-size: 18px;
+    
+}
+
+form label{
+    padding: 0 40px;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+form input{
+ margin: 20 50px;
+  font-size: 18;  
+  padding: 0 140px;  
+}
+form select{
+   margin: 20 65px;
+    padding: 0 82;
+    font-size: 18;
+    
+}
+
+textarea{
+     margin: 20 45px; 
+    font-size: 18;
+    
+}
+.send{
+ margin:35px 120px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 0 28px;
+}
+.send:hover{
+ background-color:rgb(213, 0, 0);
+    
+}
+.se{
+ background-color: black;
+    color: white;  
+    padding:0 15px;; 
+}
+.se:hover{
+ background-color:rgb(213, 0, 0);

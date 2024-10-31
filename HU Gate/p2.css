@@ -1,0 +1,131 @@
+body{
+    text-align: center;
+    background-color:rgb(245, 245, 245); 
+}
+
+nav ul{
+    /*background:linear-gradient(rgb(245, 245, 245),rgb(213, 0, 0) );  */
+   background:rgb(213, 0, 0);
+   overflow: hidden;
+}
+
+li{
+    list-style: none;
+   float: left;
+}
+
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    padding-left:27px ;
+    color:black; 
+    font-size: 18px;
+    font-weight: 900;
+}
+
+li a:hover{
+/*background:linear-gradient(rgb(213, 0, 0) ,rgb(245, 245, 245) );*/
+  background-color:rgb(245, 245, 245);
+  color :black;
+
+}
+.colo{
+    margin-left:7px;
+ color: black;
+    font-weight:900;
+    font-size: 25px;
+    /*float: right;*/
+   /* padding-left: 60px;
+    padding-right: 100;*/
+    text-shadow: 1px 2px 5px red;
+    background-color:rgb(245, 245, 245);
+}
+.colo:hover{
+    color: black;
+background-color:rgb(245, 245, 245);
+}
+
+table{
+   margin: auto;
+   margin-top: 60px;
+    font-size: 20px;
+     background-color:rgb(241, 248, 233);
+}
+.color{
+    /* background:linear-gradient(rgb(245, 245, 245),rgb(213, 0, 0) );*/
+    background-color:rgb(213, 0, 0);
+    color: black;
+    font-size: 30px;
+}
+th{
+    padding:5px 80px;
+}
+.data{
+    font-weight: 100;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width:25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66;}
+.col-6{width: 50%;}
+.col-7{width: 58.33;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width:91.66%;}
+.col-12{width: 100%;}
+
+.box{
+ /* margin:20px 30px;
+    padding: 36px 24px 40px 24px;*/
+   margin: 42px 100px 0 70;
+    padding:20px 25px;
+    border-radius: 10px;
+   box-shadow: 0 0 0 1px rgba(0,0,0,.15) ,0 2px 3px 0 rgba(0,0,0,.1);
+    /* background:linear-gradient(rgb(245, 245, 245) ,rgb(213, 0, 0) );*/
+   background-color:rgb(241, 248, 233);
+     /*background-color:rgb(232, 245, 233);*/
+    color: black;
+}
+div a{
+    text-decoration: none;
+    color:black;
+    font-size: 23px;
+     font-weight:bolder;
+    text-align:start;
+    text-shadow: 1px 2px 5px rgb(213, 0, 0);
+}
+div img{
+margin:0 0 10px 0;    
+    
+}
+
+.box:hover{
+  background-color:rgb(224, 224, 224);
+    color:rgb(213, 0, 0);}
+
+
+
+
+
+
+
+
+
+
